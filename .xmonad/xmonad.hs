@@ -16,7 +16,7 @@
     myPP = xmobarPP { ppCurrent = xmobarColor "#ff0000" "" . wrap " " " " }
  
     --Custom Terminal Emulutor--
-    myTerminal = "sakura -e /bind/bash"
+    myTerminal = "sakura"
  
     -- Key binding to toggle the gap for the bar.
     toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
